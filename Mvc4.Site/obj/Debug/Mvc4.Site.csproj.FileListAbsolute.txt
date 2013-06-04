@@ -60,3 +60,4 @@ C:\github\MVC\Mvc4.Site\bin\Mvc4.dll
 C:\github\MVC\Mvc4.Site\bin\Mvc4.pdb
 C:\github\MVC\Mvc4.Site\obj\Debug\Mvc4.dll
 C:\github\MVC\Mvc4.Site\obj\Debug\Mvc4.pdb
+C:\github\MVC\Mvc4.Site\obj\Debug\Mvc4.Site.csprojResolveAssemblyReference.cache
