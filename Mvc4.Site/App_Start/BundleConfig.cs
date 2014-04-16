@@ -26,20 +26,17 @@ namespace Mvc4.App_Start
             bundles.Add(new StyleBundle("~/Content/layout.bundle.css")
                 .Include("~/Content/kendo.common.css",
 						 "~/Content/kendo.mobitor.css",
-                         "~/Content/Site.css"));
+                         "~/Content/Site.css",
+                         "~/Content/bootstrap.min.css"));
 
             bundles.Add(new ScriptBundle("~/Scripts/layout.bundle.javascript")
                 .Include("~/Scripts/jquery-1.9.1.js",
-                         "~/Scripts/knockout-2.2.1.min.js",
-                         "~/Scripts/knockout.mapping-latest.js",
                          "~/Scripts/modernizr-2.6.2.js",
-                         "~/Scripts/ko.gridBinding.js",
-                // I had to include the min version of kendo.web because I was getting an error if I let microsoft minify the file. 
                          "~/Scripts/kendo.web.min.js",
-                         "~/Scripts/knockout-kendo.js",
-                         "~/Scripts/jquery.validate.js",
-                         "~/Scripts/jquery.validate.unobtrusive.js",
-                         "~/Scripts/jquery.unobtrusive-ajax.js"));
+                         "~/Scripts/angular.min.js",
+                         "~/Scripts/app.js",
+                         "~/Scripts/indexController.js",
+                         "~/Scripts/ui-bootstrap-custom-tpls-0.10.0.min.js"));
         }
     }
 }
