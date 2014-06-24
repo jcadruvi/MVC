@@ -5,13 +5,13 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width" />
     <title>@ViewBag.Title</title>
-    @Styles.Render("~/Content/bundle/layout-bundle-css")
+    @Styles.Render("~/Content/layout-bundle-css")
 </head>
 <body>
     <header>
     </header>
     @RenderBody()
-    @Scripts.Render("~/Scripts/bundle/layout-bundle-javascript")
+    @Scripts.Render("~/Scripts/layout-bundle-javascript")
     @RenderSection("scripts", required: false)
 </body>
 </html>
