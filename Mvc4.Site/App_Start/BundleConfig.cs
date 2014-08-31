@@ -35,8 +35,7 @@ namespace Mvc4.App_Start
                          "~/Scripts/kendo.web.min.js",
                          "~/Scripts/angular.min.js",
                          "~/Scripts/app.js",
-                         "~/Scripts/indexController.js",
-                         "~/Scripts/ui-bootstrap-custom-tpls-0.10.0.min.js"));
+                         "~/Scripts/indexController.js"));
         }
     }
 }
